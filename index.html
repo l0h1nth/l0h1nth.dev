@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lohinth M - cybersecurity learner, CTF player, and builder of small security tools.">
+    <title>Lohinth M / gr00t</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="Home">
+          <span class="brand-mark">~/</span>
+          <span>gr00t</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="blog/">writings</a>
+          <a href="notes/">notes</a>
+          <a href="#experience">experience</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-grid">
+            <div class="home-intro">
+              <h1>Lohinth M</h1>
+              <p class="eyebrow">aka gr00t / l0h1nth</p>
+              <p class="intro">
+                I play CTFs and build small security projects to understand how
+                real vulnerabilities, detections, and systems behave. Interested
+                in web exploitation, Linux internals, malware behavior, and
+                defensive security.
+              </p>
+              <p class="contact-line">reach me at <a href="mailto:lohinth25@proton.me">lohinth25@proton.me</a></p>
+            </div>
+
+            <nav class="home-links" aria-label="Featured links">
+              <a class="home-link" href="blog/">
+                <strong>Blog</strong>
+                <span>technical writings</span>
+              </a>
+              <a class="home-link" href="notes/">
+                <strong>Notes</strong>
+                <span>informal notes and reminders</span>
+              </a>
+              <a class="home-link" href="#experience">
+                <strong>Team 1nf1n1ty</strong>
+                <span>cybersecurity club and CTF work</span>
+              </a>
+              <a class="home-link" href="#projects">
+                <strong>Projects</strong>
+                <span>EDR, homelab, scanner, second brain</span>
+              </a>
+              <a class="home-link" href="https://github.com/l0h1nth" target="_blank" rel="noreferrer noopener">
+                <strong>GitHub</strong>
+                <span>code and project logs</span>
+              </a>
+              <a class="home-link" href="https://medium.com/@gr00t25/santacloud-intigriti-web-challenge-write-up-29175ea3b2ce" target="_blank" rel="noreferrer noopener">
+                <strong>Medium</strong>
+                <span>SantaCloud Intigriti writeup</span>
+              </a>
+            </nav>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="ideas-heading">
+          <div class="section-heading">
+            <p class="eyebrow">inside the site</p>
+            <h2 id="ideas-heading">quick index</h2>
+          </div>
+          <div class="link-board">
+            <a class="link-card" href="blog/">
+              <span class="card-index">01</span>
+              <span>
+                <strong>technical writings</strong>
+                <small>longer posts, walkthroughs, and lessons learned</small>
+              </span>
+            </a>
+            <a class="link-card" href="notes/">
+              <span class="card-index">02</span>
+              <span>
+                <strong>quick notes</strong>
+                <small>short observations, commands, and reminders</small>
+              </span>
+            </a>
+            <a class="link-card" href="#experience">
+              <span class="card-index">03</span>
+              <span>
+                <strong>experience</strong>
+                <small>Team 1nf1n1ty, CTFs, workshops, and challenge design</small>
+              </span>
+            </a>
+            <a class="link-card" href="#projects">
+              <span class="card-index">04</span>
+              <span>
+                <strong>projects</strong>
+                <small>security tools, labs, and local-first workflows</small>
+              </span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section-block split-section" id="experience" aria-labelledby="experience-heading">
+          <div class="section-heading">
+            <p class="eyebrow">experience</p>
+            <h2 id="experience-heading">Team 1nf1n1ty</h2>
+          </div>
+          <div class="timeline">
+            <p><span>role</span> Core member, Cybersecurity Club of SASTRA Deemed University.</p>
+            <p><span>timeline</span> March 2024 - Present.</p>
+            <p><span>ctfs</span> Participated in 200+ Capture The Flag competitions and helped the team achieve a #5 national ranking in 2024 on ctftime.org.</p>
+            <p><span>ironCTF</span> Designed and developed challenges for ironCTF 2024, focusing on real-world scenarios.</p>
+            <p><span>community</span> Organized events, mentored peers, and conducted workshops on web exploitation and game hacking.</p>
+          </div>
+        </section>
+
+        <section class="section-block split-section" id="projects" aria-labelledby="projects-heading">
+          <div class="section-heading">
+            <p class="eyebrow">build log</p>
+            <h2 id="projects-heading">projects</h2>
+          </div>
+          <div class="project-list">
+            <article class="project-item">
+              <div>
+                <h3>Mini Linux EDR Agent</h3>
+                <p>Rust-based Linux EDR agent that watches suspicious processes, file changes, network activity, and persistence attempts using /proc and file integrity monitoring.</p>
+                <small>TOML rules, JSONL alerts, suspicious ports, reverse-shell-like behavior, cron, systemd, SSH keys, and critical Linux files.</small>
+              </div>
+              <span class="tag">rust</span>
+            </article>
+            <article class="project-item">
+              <div>
+                <h3>Malware Analysis Homelab</h3>
+                <p>Isolated analysis lab with 5 Windows VMs and 1 Ubuntu monitoring server for controlled malware execution and behavior study.</p>
+                <small>CAPE Sandbox, Sysmon, Zeek, tcpdump, network telemetry, persistence analysis, and controlled connectivity.</small>
+              </div>
+              <span class="tag">lab</span>
+            </article>
+            <article class="project-item">
+              <div>
+                <h3>Honeypot-Aware Port Scanner</h3>
+                <p>Python scanner with banner grabbing, response-latency checks, port behavior analysis, and TLS fingerprinting to identify fake services.</p>
+                <small>Detects Cowrie, Kippo, Portspoof-like behavior and extracts certificate CN/Issuer fields from unverified SSL contexts.</small>
+              </div>
+              <span class="tag">python</span>
+            </article>
+            <article class="project-item">
+              <div>
+                <h3>Second Brain CLI</h3>
+                <p>Local-first terminal note-taking tool for Markdown notes with SQLite indexing, tags, links, and full-text search.</p>
+                <small>Integrated Ollama auto-tagging and semantic embeddings to surface related notes, forgotten ideas, and topic-based search results.</small>
+              </div>
+              <span class="tag">cli</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block split-section" id="open-source" aria-labelledby="open-source-heading">
+          <div class="section-heading">
+            <p class="eyebrow">open source</p>
+            <h2 id="open-source-heading">Odysseus</h2>
+          </div>
+          <div class="timeline">
+            <p><span>document scoping</span> Hardened agent document owner checks across list, read, edit, delete, and suggest flows to prevent cross-user access in multi-user deployments.</p>
+            <p><span>admin guard</span> Fixed the companion pairing admin guard import and added regression coverage for the runtime failure.</p>
+            <p><span>project</span> Contributed to Odysseus, a self-hosted AI workspace for local-first chat, agents, documents, memory, email, calendar, and model serving.</p>
+          </div>
+        </section>
+
+        <section class="contact-strip" id="contact" aria-label="Contact links">
+          <p>reach me when something is worth building, breaking, or writing down.</p>
+          <div>
+            <a href="mailto:lohinth25@proton.me">email</a>
+            <a href="https://github.com/l0h1nth" target="_blank" rel="noreferrer noopener">github</a>
+            <a href="https://medium.com/@gr00t25/santacloud-intigriti-web-challenge-write-up-29175ea3b2ce" target="_blank" rel="noreferrer noopener">medium</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>(c) 2026</span>
+        <span>built simple, kept useful.</span>
+      </footer>
+    </div>
+
+    <script src="js/site.js"></script>
+  </body>
+</html>

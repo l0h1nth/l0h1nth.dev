@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Short security notes and useful snippets by Lohinth M.">
+    <title>notes / gr00t</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="page-shell narrow">
+      <header class="site-header">
+        <a class="brand" href="../" aria-label="Home">
+          <span class="brand-mark">~/</span>
+          <span>gr00t</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="../blog/">writings</a>
+          <a aria-current="page" href="./">notes</a>
+          <a href="../#experience">experience</a>
+          <a href="../#projects">projects</a>
+          <a href="../#contact">contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="page-title">
+          <p class="eyebrow">scratchpad</p>
+          <h1>notes</h1>
+          <p>Small useful things before they become posts, tools, or forgotten tabs.</p>
+        </section>
+
+        <section class="notes-grid" aria-label="Notes">
+          <article class="note-card">
+            <span class="tag">habit</span>
+            <h2>capture the first weird clue</h2>
+            <p>If a request, response, process, or log looks strange, write the exact weirdness down before testing ten unrelated ideas.</p>
+          </article>
+          <article class="note-card">
+            <span class="tag">command</span>
+            <h2>fast file search</h2>
+            <pre><code>rg --files | rg 'config|env|secret'</code></pre>
+          </article>
+          <article class="note-card">
+            <span class="tag">ctf</span>
+            <h2>writeups need proof</h2>
+            <p>Save the request, response, screenshot, and command output while solving. Future-you writes faster when evidence is already collected.</p>
+          </article>
+          <article class="note-card">
+            <span class="tag">blue team</span>
+            <h2>detection notes</h2>
+            <p>Good alerts explain what happened, where it happened, why it matters, and what evidence led there.</p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span><a href="../">home</a></span>
+        <span>notes before noise.</span>
+      </footer>
+    </div>
+
+    <script src="../js/site.js"></script>
+  </body>
+</html>
