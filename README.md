@@ -12,7 +12,7 @@ css/style.css       Shared theme
 js/site.js          Small pointer-light effect
 blog/index.html     Writings archive
 .nojekyll           Helps GitHub Pages serve files as-is
-CNAME.example       Rename to CNAME and put your real domain inside
+CNAME               Custom domain for GitHub Pages
 ```
 
 ## Run Locally
@@ -25,10 +25,12 @@ Open `http://localhost:4173/`.
 
 ## Custom Domain
 
-When you are ready to deploy on GitHub Pages:
+This site is configured for:
 
-1. Rename `CNAME.example` to `CNAME`.
-2. Replace `your-domain.com` with your actual domain.
-3. Configure your domain DNS to point to GitHub Pages.
+```text
+loh1nth.dev
+```
+
+Configure your domain DNS to point to GitHub Pages.
 
 Keep the site at the repository root so `/blog/` works cleanly.
