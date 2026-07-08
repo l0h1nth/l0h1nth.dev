@@ -7,7 +7,7 @@ No framework, no build step, and no backend.
 
 ```text
 index.html          Home page
-favicon.svg         Browser tab icon
+dog.jpeg            Browser tab icon
 css/style.css       Shared theme
 js/site.js          Small pointer-light effect
 blog/index.html     Writings archive
