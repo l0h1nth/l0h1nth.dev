@@ -1,36 +1,33 @@
-# Lohinth M / gr00t
+# Lohinth M
 
-A small static personal site with a simple dark theme, inspired by compact personal blogs.
-No framework, no build step, and no backend.
+I play CTFs and build small security projects to learn how real vulnerabilities
+and detections work. Interested in web exploitation, Linux internals, forensics,
+and defensive security.
 
-## Structure
+Site: [l0h1nth.dev](https://l0h1nth.dev)
 
-```text
-index.html          Home page
-dog.jpeg            Browser tab icon
-css/style.css       Shared theme
-js/site.js          Small pointer-light effect
-blog/index.html     Writings archive
-.nojekyll           Helps GitHub Pages serve files as-is
-CNAME               Custom domain for GitHub Pages
-```
+## Featured Work
 
-## Run Locally
+| Project | What it does | Tech |
+| --- | --- | --- |
+| [Mini Linux EDR](https://github.com/l0h1nth/mini-linux-edr) | Linux endpoint monitoring with process, file, socket, and persistence alerts | Rust, Linux, TOML, JSONL |
+| [Flicker](https://github.com/l0h1nth/Flicker) | AI-powered productivity companion for turning deadlines into action | React, Vite, Express, SQLite |
+| [Second Brain CLI](https://github.com/l0h1nth/second-brain-cli) | Local-first Markdown notes with SQLite search, tags, links, and Ollama-assisted recall | Python, SQLite, Ollama |
 
-```bash
-python3 -m http.server 4173
-```
+## Open Source
 
-Open `http://localhost:4173/`.
+### Odysseus
 
-## Custom Domain
+Self-hosted AI workspace for local-first chat, agents, documents, memory, email,
+calendar, and model serving.
 
-This site is configured for:
+- [#618](https://github.com/pewdiepie-archdaemon/odysseus/pull/618) Hardened agent document owner scoping so users cannot access another user's documents through document tools.
+- [#927](https://github.com/pewdiepie-archdaemon/odysseus/pull/927) Fixed companion pairing route behavior by restoring a missing admin guard import and adding regression coverage.
 
-```text
-l0h1nth.dev
-```
+## Activity
 
-Configure your domain DNS to point to GitHub Pages.
+![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=l0h1nth&theme=github-compact&hide_border=true&area=true)
 
-Keep the site at the repository root so `/blog/` works cleanly.
+## Contact
+
+Mail: `lohinth25@proton.me`
