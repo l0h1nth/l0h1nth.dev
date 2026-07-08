@@ -17,7 +17,6 @@
         </a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="blog/">writings</a>
-          <a href="notes/">notes</a>
           <a href="#experience">experience</a>
           <a href="#projects">projects</a>
           <a href="#contact">contact</a>
@@ -42,11 +41,7 @@
             <nav class="home-links" aria-label="Featured links">
               <a class="home-link" href="blog/">
                 <strong>Blog</strong>
-                <span>technical writings</span>
-              </a>
-              <a class="home-link" href="notes/">
-                <strong>Notes</strong>
-                <span>informal notes and reminders</span>
+                <span>CTF and web security writeups</span>
               </a>
               <a class="home-link" href="#experience">
                 <strong>Team 1nf1n1ty</strong>
@@ -54,7 +49,7 @@
               </a>
               <a class="home-link" href="#projects">
                 <strong>Projects</strong>
-                <span>EDR, homelab, scanner, second brain</span>
+                <span>EDR, Flicker, scanner, second brain</span>
               </a>
               <a class="home-link" href="https://github.com/l0h1nth" target="_blank" rel="noreferrer noopener">
                 <strong>GitHub</strong>
@@ -78,14 +73,14 @@
               <span class="card-index">01</span>
               <span>
                 <strong>technical writings</strong>
-                <small>longer posts, walkthroughs, and lessons learned</small>
+                <small>FamPay CTF writeups, SantaCloud, and future walkthroughs</small>
               </span>
             </a>
-            <a class="link-card" href="notes/">
+            <a class="link-card" href="#projects">
               <span class="card-index">02</span>
               <span>
-                <strong>quick notes</strong>
-                <small>short observations, commands, and reminders</small>
+                <strong>projects</strong>
+                <small>security tools, apps, labs, and local-first workflows</small>
               </span>
             </a>
             <a class="link-card" href="#experience">
@@ -95,11 +90,11 @@
                 <small>Team 1nf1n1ty, CTFs, workshops, and challenge design</small>
               </span>
             </a>
-            <a class="link-card" href="#projects">
+            <a class="link-card" href="#open-source">
               <span class="card-index">04</span>
               <span>
-                <strong>projects</strong>
-                <small>security tools, labs, and local-first workflows</small>
+                <strong>open source</strong>
+                <small>Odysseus contributions and shipped fixes</small>
               </span>
             </a>
           </div>
@@ -127,11 +122,19 @@
           <div class="project-list">
             <article class="project-item">
               <div>
-                <h3>Mini Linux EDR Agent</h3>
+                <h3><a href="https://github.com/l0h1nth/mini-linux-edr" target="_blank" rel="noreferrer noopener">Mini Linux EDR Agent</a></h3>
                 <p>Rust-based Linux EDR agent that watches suspicious processes, file changes, network activity, and persistence attempts using /proc and file integrity monitoring.</p>
                 <small>TOML rules, JSONL alerts, suspicious ports, reverse-shell-like behavior, cron, systemd, SSH keys, and critical Linux files.</small>
               </div>
               <span class="tag">rust</span>
+            </article>
+            <article class="project-item">
+              <div>
+                <h3><a href="https://github.com/l0h1nth/Flicker" target="_blank" rel="noreferrer noopener">Flicker</a></h3>
+                <p>AI-powered productivity companion that helps users turn last-minute deadlines into action instead of passive reminders.</p>
+                <small>React, Vite, Express, SQLite, Gemini API, Daily Signal, Smart Nudge, Break Down, Last Light, Action Lock, Flares, and calendar export.</small>
+              </div>
+              <span class="tag">app</span>
             </article>
             <article class="project-item">
               <div>
@@ -143,7 +146,7 @@
             </article>
             <article class="project-item">
               <div>
-                <h3>Honeypot-Aware Port Scanner</h3>
+                <h3><a href="https://github.com/l0h1nth/Honeypot-Aware-Port-Scanner" target="_blank" rel="noreferrer noopener">Honeypot-Aware Port Scanner</a></h3>
                 <p>Python scanner with banner grabbing, response-latency checks, port behavior analysis, and TLS fingerprinting to identify fake services.</p>
                 <small>Detects Cowrie, Kippo, Portspoof-like behavior and extracts certificate CN/Issuer fields from unverified SSL contexts.</small>
               </div>
@@ -151,7 +154,7 @@
             </article>
             <article class="project-item">
               <div>
-                <h3>Second Brain CLI</h3>
+                <h3><a href="https://github.com/l0h1nth/second-brain-cli" target="_blank" rel="noreferrer noopener">Second Brain CLI</a></h3>
                 <p>Local-first terminal note-taking tool for Markdown notes with SQLite indexing, tags, links, and full-text search.</p>
                 <small>Integrated Ollama auto-tagging and semantic embeddings to surface related notes, forgotten ideas, and topic-based search results.</small>
               </div>

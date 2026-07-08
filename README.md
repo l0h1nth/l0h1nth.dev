@@ -11,7 +11,6 @@ favicon.svg         Browser tab icon
 css/style.css       Shared theme
 js/site.js          Small pointer-light effect
 blog/index.html     Writings archive
-notes/index.html    Notes page
 .nojekyll           Helps GitHub Pages serve files as-is
 CNAME.example       Rename to CNAME and put your real domain inside
 ```
@@ -32,4 +31,4 @@ When you are ready to deploy on GitHub Pages:
 2. Replace `your-domain.com` with your actual domain.
 3. Configure your domain DNS to point to GitHub Pages.
 
-Keep the site at the repository root so `/blog/` and `/notes/` work cleanly.
+Keep the site at the repository root so `/blog/` works cleanly.
