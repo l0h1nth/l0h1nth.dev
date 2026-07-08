@@ -28,7 +28,7 @@ Open `http://localhost:4173/`.
 This site is configured for:
 
 ```text
-loh1nth.dev
+l0h1nth.dev
 ```
 
 Configure your domain DNS to point to GitHub Pages.
