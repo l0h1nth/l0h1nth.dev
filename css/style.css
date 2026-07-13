@@ -325,6 +325,8 @@ small {
 }
 
 .post-list {
+  display: grid;
+  gap: 26px;
   padding-bottom: 54px;
 }
 
@@ -333,6 +335,32 @@ small {
   grid-template-columns: 1fr auto;
   gap: 28px;
   padding: 18px 0;
+}
+
+.writeup-group {
+  border-top: 1px solid var(--line);
+}
+
+.writeup-group .post-row {
+  border-top: 0;
+}
+
+.group-header {
+  padding-bottom: 16px;
+}
+
+.group-header strong {
+  color: var(--accent);
+}
+
+.writeup-items {
+  margin-left: 18px;
+  border-left: 1px solid var(--line);
+}
+
+.writeup-items .post-row {
+  padding-left: 18px;
+  border-top: 1px solid var(--line);
 }
 
 .post-row time {
@@ -381,6 +409,10 @@ small {
 
   .post-row {
     gap: 8px;
+  }
+
+  .writeup-items {
+    margin-left: 0;
   }
 
   h1 {
